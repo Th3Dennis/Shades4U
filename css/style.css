@@ -1,0 +1,87 @@
+body {
+  padding-top: 70px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+}
+
+.container-fluid.noMargin {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#titlePicture {
+  width: 100%;
+  height: auto;
+  padding-right: 0;
+}
+
+.titleInformation {
+  height: 40px;
+  background-color: #313131;
+}
+
+.titleInformationText {
+  height: 40px;
+  color: white;
+  vertical-align: middle;
+  padding-top: 8px;
+}
+
+.elementTitle {
+  font-weight: bold;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+  bottom: 50px;
+}
+
+.elementTitleMargin {
+  margin-top: 5rem;
+}
+
+.newCollectionImage {
+  width: 100%;
+  height: auto;
+}
+
+.SS21Collection {
+  margin-top: 8rem;
+}
+
+.SS21CollectionText {
+  text-align: left;
+  top: 50%;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 35%;
+  padding-right: 35%;
+  font-size: 25px;
+}
+
+.SS21CollectionTitleText {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
