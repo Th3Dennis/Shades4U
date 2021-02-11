@@ -20,7 +20,18 @@ function createCardsManager(jsonArray) {
                 break;
             case 2:
                 rowName = "thirdRow";
+                break;
+            case 3:
+                rowName = "firstRowSecondCarousel";
+                break;
+            case 4:
+                rowName = "secondRowSecondCarousel";
+                break;
+            case 5:
+                rowName = "thirdRowSecondCarousel";
+                break;
         }
+        console.log(rowName);
         if (cardCounter == 4) {
             cardCounter = 0;
             rowCounter += 1;
