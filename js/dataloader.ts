@@ -45,7 +45,6 @@ function createCardsManager(jsonArray: Array<sunglassesCard>) {
 
         }
 
-        console.log(rowName)
 
 
         if (cardCounter == 4) {
